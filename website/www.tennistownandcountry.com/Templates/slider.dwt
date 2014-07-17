@@ -1,0 +1,53 @@
+<! doctype html>
+<html>
+<head>
+<meta charset ="UTF-8" />
+<title>Image Slider</title>
+<style type ="text/css">
+#wrapper {
+	display: block;
+	margin: auto;
+	height: 720 px;
+	width: 960px;
+}
+#container {
+overflow: auto;
+}
+#prev {
+	background-image: url(arrow_l.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: left;
+	height: 720 px;
+	width: 80 px;
+	position: relative;
+	z-index: 10;
+}
+#next{
+background-image:url(arrow_r.jpg);
+background-repeat: no-repeat;
+background-positioning: center center;
+display: block;
+float: right;
+height: 720px;
+width:80px;
+position: relative;
+z-index: 10;
+}
+#slider{
+display: block;
+margin: auto;
+float: left;
+height: 720px;
+width:960 px;
+overflow:hidden;
+position: absolute;
+}
+
+
+</style>
+</head>
+<body>
+</body>
+</html>

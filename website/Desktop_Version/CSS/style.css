@@ -1,0 +1,100 @@
+<style type="text/css">
+
+#body {
+    padding: 0;
+    margin: 0;
+    font-family: Serif;
+    font-size: 12px;
+    color:black;
+}
+#nav {
+    background-color: none;
+}
+#nav_wrapper {
+    width: 1300px;
+    margin: 0 auto;
+    font-weight:bold;
+    text-align: left;
+    color:#000000;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 600px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #FFFFFF;
+}
+#nav ul li a, visited {
+    color: #FFFFFF;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+    max-width:display;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-top: 0;
+    margin-left: 0px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #FFFFFF;
+}
+a:link,a:visited
+{
+display:block;
+width:200px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#98bf21;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.tct {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	
+}
+.tct:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #00BFFF) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.tct:active {
+	position:relative;
+	top:1px;
+}
+
+
+body
+{
+font-family:myFirstFont;
+font-weight:bold;
+}
+
+body
+{
+background:url(file:///Users/NoahMilman/Desktop/website/photos/newbackground.jpg);
+background-size:1300px 1300px;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+} 
